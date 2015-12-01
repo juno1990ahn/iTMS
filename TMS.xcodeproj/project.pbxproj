@@ -15,6 +15,7 @@
 		F08AFCBA1C0DAABB00128480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F08AFCB81C0DAABB00128480 /* LaunchScreen.storyboard */; };
 		F08AFCC51C0DAABB00128480 /* TMSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08AFCC41C0DAABB00128480 /* TMSTests.swift */; };
 		F08AFCD01C0DAABB00128480 /* TMSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08AFCCF1C0DAABB00128480 /* TMSUITests.swift */; };
+		F08AFCE01C0DB22100128480 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F08AFCDF1C0DB22100128480 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F08AFCCB1C0DAABB00128480 /* TMSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F08AFCCF1C0DAABB00128480 /* TMSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMSUITests.swift; sourceTree = "<group>"; };
 		F08AFCD11C0DAABB00128480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F08AFCDF1C0DB22100128480 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		F08AFCA01C0DAABA00128480 = {
 			isa = PBXGroup;
 			children = (
+				F08AFCDF1C0DB22100128480 /* .gitignore */,
 				F08AFCAB1C0DAABA00128480 /* TMS */,
 				F08AFCC31C0DAABB00128480 /* TMSTests */,
 				F08AFCCE1C0DAABB00128480 /* TMSUITests */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F08AFCE01C0DB22100128480 /* .gitignore in Resources */,
 				F08AFCBA1C0DAABB00128480 /* LaunchScreen.storyboard in Resources */,
 				F08AFCB71C0DAABB00128480 /* Assets.xcassets in Resources */,
 				F08AFCB21C0DAABB00128480 /* Main.storyboard in Resources */,
@@ -405,6 +409,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pandaandthekid.TMS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -416,6 +421,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pandaandthekid.TMS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
